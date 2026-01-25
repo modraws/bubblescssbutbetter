@@ -1,25 +1,32 @@
 /* MESSAGES  - - - - - - - - - - - - - - - - - - - - - */
-.c19a557985eb7793-contents>.c19a557985eb7793-messageContent {
-    background-color: rgba(255, 255, 255, 0.075);
+.c19a557985eb7793-contents>.c19a557985eb7793-messageContent, .contents_c19a55>.messageContent_c19a55 {
+    background-color: var(--interactive-background-selected);
     width: fit-content;
     margin-left: 0px !important;
     padding-left: 0px !important;
-    padding: 14px !important;
+    padding: 8px 14px !important;
     border-radius: 0px 10px 10px 0px;
     box-sizing: content-box;
     max-width: 100%;
     word-wrap: normal;
 }
 
-._5126c0cd07f243a0-groupStart .c19a557985eb7793-messageContent {
+._5126c0cd07f243a0-groupStart .c19a557985eb7793-messageContent, .groupStart__5126c .messageContent_c19a55 {
     border-radius: 10px 10px 10px 0px;
 }
 
-._5126c0cd07f243a0-message,
-.c19a557985eb7793-contents {
+._5126c0cd07f243a0-message, .message__5126c {
     /* position: absolute; */
-    max-width: calc(100% - var(--custom-message-margin-left-content-cozy)) !important;
-    min-width: calc(100% - var(--custom-message-margin-left-content-cozy)) !important;
+    max-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
+    min-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
+    padding: 2px 64px !important;
+}
+
+.c19a557985eb7793-contents, .contents_c19a55 {
+    /* position: absolute; */
+    max-width: calc(100%) !important;
+    min-width: calc(100%) !important;
+    justify-self: end;
 }
 
 .c19a557985eb7793-buttonContainer ._040f07d21e1fb0d6-container {
@@ -27,7 +34,7 @@
 }
 
 /*
-  ._23977d5b7cef7361-reactions {
+  ._23977d5b7cef7361-reactions, .reactions__23977 {
     margin-bottom: -12px;
   
     width: 100% !important;
@@ -38,8 +45,8 @@
     >div {
       position: relative;
   
-      ._23977d5b7cef7361-reaction,
-      ._23977d5b7cef7361-reactionBtn {
+      ._23977d5b7cef7361-reaction, .reaction__23977,
+      ._23977d5b7cef7361-reactionBtn, .reactionBtn__23977 {
         backdrop-filter: blur(16px);
       }
   
@@ -131,62 +138,62 @@
     }
   }
   */
-._23977d5b7cef7361-reactionInner[aria-label*=", 1 "] ._23977d5b7cef7361-reactionCount {
+._23977d5b7cef7361-reactionInner[aria-label*=", 1 "] ._23977d5b7cef7361-reactionCount,
+.reactionInner__23977[aria-label*=", 1 "] .reactionCount__23977 {
     display: none !important;
 }
 
 
-._5126c0cd07f243a0-messageListItem[data-is-self="true"] {
+._5126c0cd07f243a0-messageListItem[data-is-self="true"], .messageListItem__5126c[data-is-self="true"] {
     align-items: end;
     align-content: end;
     justify-content: end;
     justify-items: end;
 
-    ._5126c0cd07f243a0-message {
-        /* padding-left: 100%; */
-        padding-right: var(--custom-message-margin-left-content-cozy) !important;
-
-        .c19a557985eb7793-contents {
-            justify-items: end;
+    ._5126c0cd07f243a0-message, .message__5126c {
+            /* position: absolute; */
+            max-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
+            min-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
+            padding: 2px 64px !important;
+        }
+        
+        .c19a557985eb7793-contents, .contents_c19a55 {
+            /* position: absolute; */
+            max-width: calc(100%) !important;
+            min-width: calc(100%) !important;
+            justify-self: end;
         }
 
-        .c19a557985eb7793-avatar {
+        .c19a557985eb7793-avatar, .avatar_c19a55 {
             left: auto !important;
             right: var(--custom-message-margin-horizontal);
         }
 
-        .c19a557985eb7793-avatarDecoration {
+        .c19a557985eb7793-avatarDecoration, .avatarDecoration_c19a55 {
             left: auto !important;
             right: calc(var(--custom-message-margin-horizontal) - var(--custom-message-avatar-decoration-size) / 2 + var(--custom-message-avatar-size) / 2);
         }
 
-        .c19a557985eb7793-contents>.c19a557985eb7793-messageContent {
+        .c19a557985eb7793-contents>.c19a557985eb7793-messageContent, .contents_c19a55>.messageContent_c19a55 {
             border-radius: 10px 0px 0px 10px;
-            background-color: var(--brand-500);
+            background-color: var(--interactive-background-selected);
         }
 
-        &._5126c0cd07f243a0-groupStart .c19a557985eb7793-messageContent {
+        ._5126c0cd07f243a0-groupStart .c19a557985eb7793-messageContent, .groupStart__5126c .messageContent_c19a55 {
             border-radius: 10px 10px 0px 10px;
         }
 
-        .b7e1cb0370c2dd0e-container>* {
+        .container_b7e1cb>*, .b7e1cb0370c2dd0e-container>* {
             justify-self: end !important;
             align-self: end !important;
+            margin-right: 48px;
         }
 
-        .f4758a8d6346d18b-visualMediaItemContainer {
-            width: auto;
-        }
-
-        .c19a557985eb7793-contents {
-            justify-self: end;
-        }
-
-        &.c19a557985eb7793-hasReply {
+        &.c19a557985eb7793-hasReply, &.hasReply_c19a55 {
             padding-top: 22px;
         }
 
-        .c19a557985eb7793-repliedMessage {
+        .c19a557985eb7793-repliedMessage, .repliedMessage_c19a55 {
             position: absolute;
             flex-direction: row-reverse;
             top: 0px;
@@ -196,7 +203,7 @@
             max-width: calc(100% - var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 32px);
         }
 
-        .c19a557985eb7793-repliedMessageClickableSpine {
+        .c19a557985eb7793-repliedMessageClickableSpine, .repliedMessageClickableSpine_c19a55 {
             right: calc(var(--chat-avatar-size) / 2 * -1 + var(--gutter) * -1 - 4px);
             left: 100%;
             border-right: var(--spine-width) solid var(--spine-default);
@@ -209,17 +216,17 @@
         }
     }
 
-    .c19a557985eb7793-buttonContainer {
+    .c19a557985eb7793-buttonContainer, .buttonContainer_c19a55 {
         right: auto;
         left: 0;
 
-        ._040f07d21e1fb0d6-container {
+        ._040f07d21e1fb0d6-container, .container__040f0 {
             right: auto;
             left: 56px;
         }
     }
 
-    ._23977d5b7cef7361-reactions {
+    ._23977d5b7cef7361-reactions, .reactions__23977 {
         align-content: flex-end;
         justify-content: flex-end;
     }
