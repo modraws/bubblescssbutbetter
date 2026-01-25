@@ -1,6 +1,6 @@
 /* MESSAGES  - - - - - - - - - - - - - - - - - - - - - */
 .c19a557985eb7793-contents>.c19a557985eb7793-messageContent, .contents_c19a55>.messageContent_c19a55 {
-    background-color: var(--interactive-background-selected);
+    background-color: var(--brand-20a);
     width: fit-content;
     margin-left: 0px !important;
     padding-left: 0px !important;
@@ -176,7 +176,7 @@
 
         .c19a557985eb7793-contents>.c19a557985eb7793-messageContent, .contents_c19a55>.messageContent_c19a55 {
             border-radius: 10px 0px 0px 10px;
-            background-color: var(--interactive-background-selected);
+            background-color: var(--brand-50a);
         }
 
         ._5126c0cd07f243a0-groupStart .c19a557985eb7793-messageContent, .groupStart__5126c .messageContent_c19a55 {
