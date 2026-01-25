@@ -1,50 +1,22 @@
 
-# ddex4
+# bubbles.css but better
 
-Discord's scrapped Design Experiment V4, made real.
+honestly i really like the bubbles.css file that Blade04208 created, and i use it religiously all the time, but i kinda felt like making a few adjustments to it because idk i'm just a crybaby who wants everything perfect  
+i made the bubbles a bit taller, changed embeds so they actually adhere to proper margins, and created a left-aligned variant for the people that prefer that
 
-![GitHub License](https://img.shields.io/github/license/blade04208/ddex4?style=flat-square)
- ![GitHub last commit](https://img.shields.io/github/last-commit/blade04208/ddex4?style=flat-square) ![Discord](https://img.shields.io/discord/1334998273437597767?style=flat-square&label=Discord) ![GitHub repo size](https://img.shields.io/github/repo-size/blade04208/ddex4?style=flat-square) ![Static Badge](https://img.shields.io/badge/skill-issue-red?style=flat-square)
+## installation
 
-![Thumbnail](/src/thumb.png)
+### vencord
 
-## Installation
-
-### Vencord
-
-Download `ddex4.theme.css` and put it in your local themes.
+download `ddex4.theme.css` and put it in your local themes.
 
    
-### BetterDiscord
+### betterdiscord
 
 download `ddex4.theme.css` and put it in your themes folder.
 
-## Support
+## support for the original theme
 <a href="https://discord.gg/KEcCnVuTV7"><img alt="discord-singular" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-singular_vector.svg"></a>
 
-    
-## Issues/To-do
-
-see https://trello.com/b/2dKqp9t6/ddex4-management
-
-## Development
-deps: 
-- nodejs
-- npm
-```
-git clone https://github.com/Blade04208/ddex4.git
-cd ddex4
-npm i
-npm start
-```
-add `http://localhost:5050/dev.css` to your quickcss or theme links and it should work! probably
-## Contributing
-
-you can contribute to either fix bugs, make faster, or make it closer-looking to the original theme
-
-
-## Acknowledgements
- - obsidianninja11 for the searchbar-to-icon snippet
- - ThaUnknown_ for teaching me that css is laggy, and giving the dev-boilerplate
- - discord for creating this peak of a concept
+## thank you to Blade04208 for doing all this work that i'm shoddily copying trust me i love you
 
