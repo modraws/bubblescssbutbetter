@@ -160,12 +160,9 @@
             min-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
             padding: 2px 64px !important;
 
-
         .c19a557985eb7793-header, .header_c19a55 {
             text-align: right;
         }
-        
-
         
         .c19a557985eb7793-contents, .contents_c19a55 {
             /* position: absolute; */
