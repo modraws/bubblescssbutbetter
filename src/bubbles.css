@@ -251,8 +251,7 @@
     box-sizing: content-box;
     word-wrap: break-word;
 }
-
-._122e465d2e663859-content, .content__122e4 {
+._122e465d2e663859-container, .container__122e4 {
     .quote__122e4 {
     background-color: rgba(0,0,0,0) !important;
     border-radius: 0px !important;
@@ -260,7 +259,8 @@
     -webkit-margin-end: 0px !important;
     margin-inline-end: 0px !important;
     }
-    
+}
+._122e465d2e663859-content, .content__122e4 {
     ._122e465d2e663859-headerContainer, .headerContainer__122e4 {
     width: fit-content;
     background-color: var(--premium-perk-purple);
