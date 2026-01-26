@@ -235,5 +235,57 @@
         align-content: flex-end;
         justify-content: flex-end;
     }
-
 }
+
+
+/* FORWARDS - - - - - - - - - - - - - - - - - - - - - - */
+._122e465d2e663859-content>*, .content__122e4>* {
+    align-self: flex-end;
+    background-color: var(--text-default);
+    color: var(--chat-background) !important;
+    width: fit-content;
+    margin-left: 0px !important;
+    margin-right: 64px !important;
+    padding-left: 0px !important;
+    padding: 8px 14px !important;
+    box-sizing: content-box;
+    word-wrap: break-word;
+}
+
+._122e465d2e663859-content, .content__122e4 {
+    .headerContainer__70a91 {
+    width: fit-content;
+    background-color: var(--premium-perk-purple);
+    border-radius: 10px;
+    svg>path {
+        fill: var(--chat-background) !important;
+        }
+    }
+    .c19a557985eb7793-messageContent, .messageContent_c19a55{
+        border-radius: 10px 10px 0px 10px;
+    }
+    .b7e1cb0370c2dd0e-container, .container_b7e1cb {
+        margin-top: 4px;
+        border-radius: 10px 0px 0px 10px;
+    }
+    ._122e465d2e663859-footerContainer, .footerContainer__122e4 {
+    width: fit-content;
+    background-color: var(--text-link);
+    border-radius: 10px 0px 10px 10px;
+    svg>path {
+        fill: var(--chat-background) !important;
+        }
+    }
+    ._122e465d2e663859-headerText, ._122e465d2e663859-footerText,
+    .headerText__122e4, .footerText__122e4 {
+        font-weight: inherit;
+        color: var(--chat-background) !important;
+    }
+}
+
+/* makes codeblocks actually look full sized xd */
+._752971923a1e6683-markup blockquote, ._752971923a1e6683-markup pre,
+.markup__75297 blockquote, .markup__75297 pre {
+    max-width: 100%;
+}
+
