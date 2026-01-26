@@ -253,6 +253,11 @@
 }
 
 ._122e465d2e663859-content, .content__122e4 {
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    justify-items: end;
+    
     .headerContainer__70a91 {
     width: fit-content;
     background-color: var(--premium-perk-purple);
