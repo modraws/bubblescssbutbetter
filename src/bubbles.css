@@ -253,11 +253,6 @@
 }
 
 ._122e465d2e663859-content, .content__122e4 {
-    align-items: end;
-    align-content: end;
-    justify-content: end;
-    justify-items: end;
-    
     .headerContainer__70a91 {
     width: fit-content;
     background-color: var(--premium-perk-purple);
@@ -272,6 +267,10 @@
     .b7e1cb0370c2dd0e-container, .container_b7e1cb {
         margin-top: 4px;
         border-radius: 10px 0px 0px 10px;
+        align-items: end;
+        align-content: end;
+        justify-content: end;
+        justify-items: end;
     }
     ._122e465d2e663859-footerContainer, .footerContainer__122e4 {
     width: fit-content;
