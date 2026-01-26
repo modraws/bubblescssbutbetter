@@ -1,6 +1,6 @@
 /* MESSAGES  - - - - - - - - - - - - - - - - - - - - - */
 .c19a557985eb7793-contents>.c19a557985eb7793-messageContent, .contents_c19a55>.messageContent_c19a55 {
-    background-color: var(--brand-20a);
+    background-color: var(--background-mod-subtle);
     width: fit-content;
     margin-left: 0px !important;
     padding-left: 0px !important;
@@ -149,6 +149,7 @@
     align-content: end;
     justify-content: end;
     justify-items: end;
+}
 
     ._5126c0cd07f243a0-message, .message__5126c {
             /* position: absolute; */
@@ -156,12 +157,16 @@
             min-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
             padding: 2px 64px !important;
         }
+
+        .c19a557985eb7793-header, .header_c19a55 {
+            text-align: right;
+        }
         
         .c19a557985eb7793-contents, .contents_c19a55 {
             /* position: absolute; */
             max-width: calc(100%) !important;
             min-width: calc(100%) !important;
-            justify-self: end;
+            justify-items: end;
         }
 
         .c19a557985eb7793-avatar, .avatar_c19a55 {
