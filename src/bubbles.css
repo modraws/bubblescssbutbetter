@@ -194,6 +194,10 @@
         &.c19a557985eb7793-hasReply, &.hasReply_c19a55 {
             padding-top: 22px;
         }
+        
+        .visualMediaItemContainer_f4758a {
+            max-width: fit-content !important;    
+        }
 
         .c19a557985eb7793-repliedMessage, .repliedMessage_c19a55 {
             position: absolute;
@@ -239,7 +243,7 @@
 ._122e465d2e663859-content>*, .content__122e4>* {
     align-self: flex-end;
     background-color: var(--text-default);
-    color: var(--background-mod-strong) !important;
+    color: var(--chat-background) !important;
     width: fit-content;
     margin-left: 0px !important;
     padding-left: 0px !important;
@@ -250,18 +254,18 @@
 
 ._122e465d2e663859-content, .content__122e4 {
     .quote__122e4 {
-    background-color: rgba(0,0,0,0);
-    border-radius: 0px;
-    width: 0px;
-    -webkit-margin-end: 0px;
-    margin-inline-end: 0px;
+    background-color: rgba(0,0,0,0) !important;
+    border-radius: 0px !important;
+    width: 0px !important;
+    -webkit-margin-end: 0px !important;
+    margin-inline-end: 0px !important;
     }
     
     ._122e465d2e663859-headerContainer, .headerContainer__122e4 {
     width: fit-content;
     background-color: var(--premium-perk-purple);
     border-radius: 10px;
-    margin: 0px;
+    margin-bottom: 4px;
     svg>path {
         fill: var(--chat-background) !important;
         }
@@ -296,5 +300,23 @@
 ._752971923a1e6683-markup blockquote, ._752971923a1e6683-markup pre,
 .markup__75297 blockquote, .markup__75297 pre {
     max-width: 100%;
+}
+
+.c19a557985eb7793-contents:has([id^="message-content-Uploader"]), .contents_c19a55:has([id^="message-content-Uploader"]) {
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    justify-items: end;
+    border-radius: 10px 10px 10px 10px;
+    background-color: var(--brand-50a);
+        .c19a557985eb7793-avatar, .avatar_c19a55 {
+        left: auto !important;
+        right: var(--custom-message-margin-horizontal);
+    }
+
+    .c19a557985eb7793-avatarDecoration, .avatarDecoration_c19a55 {
+        left: auto !important;
+        right: calc(var(--custom-message-margin-horizontal) - var(--custom-message-avatar-decoration-size) / 2 + var(--custom-message-avatar-size) / 2);
+    }
 }
 
