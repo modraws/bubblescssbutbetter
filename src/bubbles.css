@@ -189,14 +189,11 @@
         .container_b7e1cb>*, .b7e1cb0370c2dd0e-container>* {
             justify-self: end !important;
             align-self: end !important;
+            width: fit-content;
         }
 
         &.c19a557985eb7793-hasReply, &.hasReply_c19a55 {
             padding-top: 22px !important;
-        }
-        
-        .visualMediaItemContainer_f4758a {
-            max-width: fit-content !important;    
         }
 
         .c19a557985eb7793-repliedMessage, .repliedMessage_c19a55 {
@@ -307,8 +304,7 @@
     align-content: end;
     justify-content: end;
     justify-items: end;
-    border-radius: 10px 10px 10px 10px;
-    background-color: var(--brand-50a);
+    border-radius: 10px !important;
         .c19a557985eb7793-avatar, .avatar_c19a55 {
         left: auto !important;
         right: var(--custom-message-margin-horizontal);
