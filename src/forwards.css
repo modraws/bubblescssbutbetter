@@ -23,7 +23,10 @@
         color: var(--chat-background) !important;
     }
     .container__60fa3 {
-        background-color: var(--brand-500);
+        background-color: var(--brand-50a);
+    }
+    .button__201d5 {
+        background-color: var(--brand-50a);
     }
 }
 ._122e465d2e663859-container, .container__122e4 {
