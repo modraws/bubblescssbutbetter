@@ -1,9 +1,11 @@
 /**
  * @name bubbles.css but better
  * @author momerob thiger a.k.a. modraws
- * @version 1.0.0
+ * @version 1.1.0
  * @description i liked the bubbles but i thought they could be better
  * @source https://github.com/modraws/bubblescssbutbetter
  */
 
 @import url("https://raw.githubusercontent.com/modraws/bubblescssbutbetter/refs/heads/main/src/bubbles.css");
+@import url("https://raw.githubusercontent.com/modraws/bubblescssbutbetter/refs/heads/main/src/selfbubbles.css");
+@import url("https://raw.githubusercontent.com/modraws/bubblescssbutbetter/refs/heads/main/src/forwards.css");
