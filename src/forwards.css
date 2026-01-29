@@ -1,0 +1,74 @@
+/* FORWARDS - - - - - - - - - - - - - - - - - - - - - - */
+._122e465d2e663859-content>*, .content__122e4>* {
+    align-self: flex-end;
+    background-color: var(--text-default);
+    color: var(--chat-background) !important;
+    width: fit-content;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    padding: 8px 14px !important;
+    box-sizing: content-box;
+    word-wrap: break-word;
+}
+._122e465d2e663859-container, .container__122e4 {
+    .quote__122e4 {
+    background-color: rgba(0,0,0,0) !important;
+    border-radius: 0px !important;
+    width: 0px !important;
+    -webkit-margin-end: 0px !important;
+    margin-inline-end: 0px !important;
+    }
+}
+._122e465d2e663859-content, .content__122e4 {
+    ._122e465d2e663859-headerContainer, .headerContainer__122e4 {
+    width: fit-content;
+    background-color: var(--premium-perk-purple);
+    border-radius: 10px;
+    margin-bottom: 4px;
+    svg>path {
+        fill: var(--chat-background) !important;
+        }
+    }
+    .c19a557985eb7793-messageContent, .messageContent_c19a55{
+        border-radius: 10px 10px 0px 10px;
+    }
+    .b7e1cb0370c2dd0e-container, .container_b7e1cb {
+        margin-top: 4px;
+        border-radius: 10px 0px 0px 10px;
+        align-items: end;
+        align-content: end;
+        justify-content: end;
+        justify-items: end;
+    }
+    ._122e465d2e663859-footerContainer, .footerContainer__122e4 {
+    width: fit-content;
+    background-color: var(--text-link);
+    border-radius: 10px 0px 10px 10px;
+    svg>path {
+        fill: var(--chat-background) !important;
+        }
+    }
+    ._122e465d2e663859-headerText, ._122e465d2e663859-footerText,
+    .headerText__122e4, .footerText__122e4 {
+        font-weight: inherit;
+        color: var(--chat-background) !important;
+    }
+}
+
+.c19a557985eb7793-contents:has([id^="message-content-Uploader"]), .contents_c19a55:has([id^="message-content-Uploader"]) {
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    justify-items: end;
+    border-radius: 10px !important;
+        .c19a557985eb7793-avatar, .avatar_c19a55 {
+        left: auto !important;
+        right: var(--custom-message-margin-horizontal);
+    }
+
+    .c19a557985eb7793-avatarDecoration, .avatarDecoration_c19a55 {
+        left: auto !important;
+        right: calc(var(--custom-message-margin-horizontal) - var(--custom-message-avatar-decoration-size) / 2 + var(--custom-message-avatar-size) / 2);
+    }
+}
+
