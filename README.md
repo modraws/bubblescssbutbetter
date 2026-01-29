@@ -8,12 +8,12 @@ i made the bubbles a bit taller, changed embeds so they actually adhere to prope
 
 ### vencord
 
-download `bubblesbutbetter.theme.css` and put it in your local themes.
+download `bubblesbutbetter.theme.css` and put it in your local themes. alternatively, for extra customisation, dive into the `/src` folder to only select and download the modules you want.
 
    
 ### betterdiscord
 
-download `bubblesbutbetter.theme.css` and put it in your themes folder.
+download `bubblesbutbetter.theme.css` and put it in your themes folder. alternatively, for extra customisation, dive into the `/src` folder to only select and download the modules you want.
 
 ## support for the original theme
 <a href="https://discord.gg/KEcCnVuTV7"><img alt="discord-singular" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-singular_vector.svg"></a>
