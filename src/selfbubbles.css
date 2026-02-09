@@ -72,13 +72,14 @@
         }
     }
 
-    .c19a557985eb7793-buttonContainer, .buttonContainer_c19a55 {
-        right: auto;
-        left: 0;
-
-        ._040f07d21e1fb0d6-container, .container__040f0 {
+        .c19a557985eb7793-buttonContainer, .buttonContainer_c19a55 {
             right: auto;
-            left: 32px;
+            left: 0;
+
+            ._040f07d21e1fb0d6-container, .container__040f0 {
+            padding: 0 64px;
+            right: auto;
+            left: 0px;
         }
     }
 
