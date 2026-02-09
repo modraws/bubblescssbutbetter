@@ -29,8 +29,12 @@
     justify-self: end;
 }
 
-.c19a557985eb7793-buttonContainer ._040f07d21e1fb0d6-container {
+.c19a557985eb7793-buttonContainer, .buttonContainer_c19a55 {
     right: 20px;
+    ._040f07d21e1fb0d6-container, .container__040f0 {
+        padding: 0 64px;
+        right: -20px;
+    }
 }
 
 /*
