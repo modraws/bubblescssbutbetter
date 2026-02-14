@@ -15,7 +15,7 @@
     span, .embedAuthorName__623de, ::marker {
         color: var(--chat-background) !important;
     }
-    code {
+    code, .blockquoteDivider__75297 {
         color: var(--chat-background) !important;
         background-color: var(--brand-500);
     }
