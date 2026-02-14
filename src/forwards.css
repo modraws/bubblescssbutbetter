@@ -12,20 +12,14 @@
     padding: 8px 14px !important;
     box-sizing: content-box;
     word-wrap: break-word;
-    span {
+    span, .embedAuthorName__623de, ::marker {
         color: var(--chat-background) !important;
     }
     code {
         color: var(--chat-background) !important;
         background-color: var(--brand-500);
     }
-    ::marker {
-        color: var(--chat-background) !important;
-    }
-    .container__60fa3 {
-        background-color: var(--brand-50a);
-    }
-    .button__201d5 {
+    .container__60fa3, .embed__623de, .button__201d5 {
         background-color: var(--brand-50a);
     }
 }
