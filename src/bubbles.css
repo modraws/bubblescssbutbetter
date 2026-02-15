@@ -9,6 +9,9 @@
     box-sizing: content-box;
     max-width: 100%;
     word-wrap: normal;
+    .markup__75297 blockquote, .markup__75297 pre {
+        max-width: 100%;
+    }
 }
 
 ._5126c0cd07f243a0-groupStart .c19a557985eb7793-messageContent, .groupStart__5126c .messageContent_c19a55 {
