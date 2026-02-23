@@ -51,12 +51,12 @@
 
         .c19a557985eb7793-repliedMessage, .repliedMessage_c19a55 {
             position: absolute;
-            flex-direction: row-reverse;
+            flex-direction: row;
             top: 0px;
             left: auto !important;
-            right: calc(var(--custom-message-margin-horizontal) - var(--custom-message-avatar-decoration-size) / 2 + var(--custom-message-avatar-size) / 2);
+            right: calc(var(--custom-message-margin-horizontal) - var(--custom-message-avatar-decoration-size) / 2 + 2px);
             margin-right: calc(var(--chat-avatar-size) * 1.5 + 12px);
-            max-width: calc(100% - var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 32px);
+            max-width: calc(100% - var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 295px);
         }
 
         .c19a557985eb7793-repliedMessageClickableSpine, .repliedMessageClickableSpine_c19a55 {
@@ -69,6 +69,7 @@
             border-top: var(--spine-width) solid var(--spine-default);
             border-top-right-radius: 6px;
             border-top-left-radius: 0px;
+            margin-left: 4px;
         }
     }
 
