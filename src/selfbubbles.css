@@ -42,7 +42,10 @@
         .container_b7e1cb>*, .b7e1cb0370c2dd0e-container>* {
             justify-self: end !important;
             align-self: end !important;
-            width: fit-content;
+        }
+        .visualMediaItemContainer_f4758a, .f4758a8d6346d18b-visualMediaItemContainer {
+            display: grid;
+            justify-content: end !important;
         }
 
         &.c19a557985eb7793-hasReply, &.hasReply_c19a55 {
