@@ -161,10 +161,6 @@
     }
 }
 
-.c19a557985eb7793-contents>.c19a557985eb7793-messageContent, .contents_c19a55>.messageContent_c19a55 {
-    border-radius: 10px;
-}
-
 /* the following CSS has been made by my friend DreariestTax53. all credits to him i'm just stealing it >:3c */
 .c19a557985eb7793-contents:has([id^="message-content-Uploader"]), .contents_c19a55:has([id^="message-content-Uploader"]) {
     border-radius: 10px !important;
