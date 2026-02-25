@@ -160,3 +160,25 @@
         }
     }
 }
+
+.c19a557985eb7793-contents>.c19a557985eb7793-messageContent, .contents_c19a55>.messageContent_c19a55 {
+    border-radius: 10px;
+}
+
+/* the following CSS has been made by my friend DreariestTax53. all credits to him i'm just stealing it >:3c */
+.c19a557985eb7793-contents:has([id^="message-content-Uploader"]), .contents_c19a55:has([id^="message-content-Uploader"]) {
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    justify-items: end;
+    border-radius: 10px !important;
+        .c19a557985eb7793-avatar, .avatar_c19a55 {
+        left: auto !important;
+        right: var(--custom-message-margin-horizontal);
+    }
+
+    .c19a557985eb7793-avatarDecoration, .avatarDecoration_c19a55 {
+        left: auto !important;
+        right: calc(var(--custom-message-margin-horizontal) - var(--custom-message-avatar-decoration-size) / 2 + var(--custom-message-avatar-size) / 2);
+    }
+}
