@@ -35,10 +35,6 @@
             right: calc(var(--custom-message-margin-horizontal) - var(--custom-message-avatar-decoration-size) / 2 + var(--custom-message-avatar-size) / 2);
         }
 
-        .c19a557985eb7793-contents>.c19a557985eb7793-messageContent, .contents_c19a55>.messageContent_c19a55 {
-            border-radius: 10px 0px 0px 10px;
-        }
-
         .container_b7e1cb>*, .b7e1cb0370c2dd0e-container>* {
             justify-self: end !important;
             align-self: end !important;
