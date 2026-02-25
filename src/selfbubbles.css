@@ -7,7 +7,7 @@
     ._5126c0cd07f243a0-groupStart .c19a557985eb7793-messageContent, .groupStart__5126c .messageContent_c19a55 {
         border-radius: 10px 10px 0px 10px !important;
     }
-    
+
     ._5126c0cd07f243a0-message, .message__5126c {
             /* position: absolute; */
             max-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
@@ -23,6 +23,10 @@
             max-width: calc(100%) !important;
             min-width: calc(100%) !important;
             justify-items: end;
+        }
+        
+        .c19a557985eb7793-contents>.c19a557985eb7793-messageContent, .contents_c19a55>.messageContent_c19a55 {
+            border-radius: 10px 0px 0px 10px;
         }
 
         .c19a557985eb7793-avatar, .avatar_c19a55 {
