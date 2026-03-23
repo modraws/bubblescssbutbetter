@@ -1,0 +1,26 @@
+._122e465d2e663859-content>*, .content__122e4>* {
+    align-self: flex-end;
+    align-items: flex-end;
+    align-content: end;
+    justify-content: end;
+    justify-items: end;
+}
+._122e465d2e663859-content, .content__122e4 {
+    ._122e465d2e663859-headerContainer, .headerContainer__122e4 {
+        border-radius: 10px 10px 0px 10px;
+    }
+    .c19a557985eb7793-messageContent, .messageContent_c19a55 {
+        border-radius: 10px 10px 0px 10px;
+    }
+    .b7e1cb0370c2dd0e-container, .container_b7e1cb {
+        margin-top: 0px;
+        border-radius: 10px 0px 0px 10px;
+        align-items: end;
+        align-content: end;
+        justify-content: end;
+        justify-items: end;
+    }
+    ._122e465d2e663859-footerContainer, .footerContainer__122e4 {
+        border-radius: 10px 0px 10px 10px;
+    }
+}
