@@ -8,7 +8,7 @@
     border-radius: 0px 10px 10px 0px;
     box-sizing: content-box;
     max-width: 100%;
-    .markup__75297 blockquote, .markup__75297 pre {
+    blockquote, pre {
         max-width: 100% !important;
     }
 }
