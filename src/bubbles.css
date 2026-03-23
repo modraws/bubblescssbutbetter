@@ -8,9 +8,6 @@
     border-radius: 0px 10px 10px 0px;
     box-sizing: content-box;
     max-width: 100%;
-    blockquote, pre {
-        max-width: 100% !important;
-    }
 }
 
 ._5126c0cd07f243a0-groupStart .c19a557985eb7793-messageContent, .groupStart__5126c .messageContent_c19a55 {
@@ -38,8 +35,8 @@
         right: -20px;
     }
 }
-.markup__75297 blockquote, ._752971923a1e6683-markup blockquote {
-    max-width: 100%
+._752971923a1e6683-markup blockquote, .markup__75297 blockquote, ._752971923a1e6683-markup pre, .markup__75297 pre {
+    max-width: 100% !important;
 }
 
 /*
