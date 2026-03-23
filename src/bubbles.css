@@ -9,7 +9,7 @@
     box-sizing: content-box;
     max-width: 100%;
     .markup__75297 blockquote, .markup__75297 pre {
-        max-width: 100%;
+        max-width: 100% !important;
     }
 }
 
