@@ -10,6 +10,7 @@
     max-width: 100%;
 }
 
+/* this fuckass change isn't going through i deleted a comma  V here but it never updated i think github is suck */
 ._5126c0cd07f243a0-groupStart .c19a557985eb7793-messageContent:not(.c19a557985eb7793-repliedTextPreview), .groupStart__5126c .messageContent_c19a55:not(.repliedTextPreview_c19a55) {
     border-radius: 10px 10px 10px 0px;
 }
