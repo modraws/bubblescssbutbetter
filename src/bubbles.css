@@ -8,7 +8,6 @@
     border-radius: 0px 10px 10px 0px;
     box-sizing: content-box;
     max-width: 100%;
-    overflow-wrap: anywhere;
 }
 
 ._5126c0cd07f243a0-groupStart .c19a557985eb7793-messageContent:not(.c19a557985eb7793-repliedTextPreview), .groupStart__5126c .messageContent_c19a55:not(.repliedTextPreview_c19a55) {
@@ -27,6 +26,7 @@
     max-width: calc(100%) !important;
     min-width: calc(100%) !important;
     justify-self: end;
+    overflow-wrap: anywhere;
 }
 
 .c19a557985eb7793-buttonContainer, .buttonContainer_c19a55 {
