@@ -25,6 +25,7 @@
             min-width: calc(100%) !important;
             justify-items: end;
             display: grid;
+            overflow-wrap: anywhere;
         }
         
         .c19a557985eb7793-contents>.c19a557985eb7793-messageContent:not([id^="message-content-Uploader"]),
