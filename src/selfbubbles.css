@@ -47,7 +47,7 @@
             align-self: end !important;
         }
         .visualMediaItemContainer_f4758a, .f4758a8d6346d18b-visualMediaItemContainer {
-            display: block;
+            display: flex;
             justify-content: end !important;
         }
 
