@@ -1,4 +1,5 @@
 ._5126c0cd07f243a0-messageListItem[data-is-self="true"], .messageListItem__5126c[data-is-self="true"] {
+    display: inline-flex;
     align-items: end;
     align-content: end;
     justify-content: end;
@@ -24,6 +25,7 @@
             max-width: calc(100%) !important;
             min-width: calc(100%) !important;
             justify-items: end;
+            display: grid;
         }
         
         .c19a557985eb7793-contents>.c19a557985eb7793-messageContent:not([id^="message-content-Uploader"]),
