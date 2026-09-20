@@ -7,10 +7,6 @@
     ._5126c0cd07f243a0-groupStart .c19a557985eb7793-messageContent, .groupStart__5126c .messageContent_c19a55 {
         border-radius: 10px 10px 0px 10px !important;
     }
-    
-    .c19a557985eb7793-repliedTextContent, .repliedTextContent_c19a55 {
-        border-radius: 0px;
-    }
 
     ._5126c0cd07f243a0-message, .message__5126c {
             /* position: absolute; */
@@ -101,6 +97,9 @@
     }
 }
 
+.c19a557985eb7793-repliedTextContent, .repliedTextContent_c19a55 {
+    border-radius: 0px;
+}
 /* the following CSS has been made by my friend DreariestTax53. all credits to him i'm just stealing it >:3c */
 .c19a557985eb7793-contents:has([id^="message-content-Uploader"]), .contents_c19a55:has([id^="message-content-Uploader"]) {
     align-items: end;
