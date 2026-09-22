@@ -44,6 +44,7 @@
         margin-top: 0px;
         border-radius: 0px 10px 10px 0px;
         max-width: fit-content;
+        width: calc(100% - 28px);
         .container__60fa3 {
             align-self: end !important;
             max-width: 566px;
