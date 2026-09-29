@@ -40,7 +40,7 @@
     .c19a557985eb7793-messageContent, .messageContent_c19a55{
         border-radius: 0px 10px 10px 0px;
     }
-    .b7e1cb0370c2dd0e-container, .container_b7e1cb {
+    .container_b7e1cb {
         margin-top: 0px;
         border-radius: 0px 10px 10px 0px;
         max-width: fit-content;
@@ -50,8 +50,11 @@
             max-width: 566px;
             width: calc(100% - 34px);
         }
+        .container__4d95d {
+            min-width: unset;
+        }
     }
-    ._122e465d2e663859-footerContainer, .footerContainer__122e4 {
+    .footerContainer__122e4 {
     width: fit-content;
     background-color: var(--text-link);
     border-radius: 0px 10px 10px 10px;
@@ -59,7 +62,6 @@
         fill: var(--chat-background) !important;
         }
     }
-    ._122e465d2e663859-headerText, ._122e465d2e663859-footerText,
     .headerText__122e4, .footerText__122e4 {
         font-weight: inherit;
         color: var(--chat-background) !important;
