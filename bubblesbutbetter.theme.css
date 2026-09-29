@@ -17,6 +17,6 @@
 	--bubblescss-forwardtextcolour: var(--chat-background);
 	--bubblescss-forwardiconcolour: var(--premium-perk-purple);
 	--bubblescss-forwardlinkcolour: var(--text-link);
-	--bubblescss-forwardembedcolour: var(--brand-50a);
+	--bubblescss-forwardembedcolour: var(--brand-70a);
 	--bubblescss-bubblepadding: 8px 14px; /* verticalpadding horizontalpadding*/
 }
