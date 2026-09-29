@@ -4,7 +4,7 @@
     width: fit-content;
     margin-left: 0px !important;
     padding-left: 0px !important;
-    padding: 8px 14px !important;
+    padding: var(--bubblescss-bubblepadding) !important;
     border-radius: 0px 10px 10px 0px;
     box-sizing: content-box;
     max-width: 100%;
@@ -185,13 +185,13 @@
     width: fit-content;
     margin-left: 0px !important;
     padding-left: 0px !important;
-    padding: 8px 14px !important;
+    padding: var(--bubblescss-bubblepadding) !important;
     box-sizing: content-box;
     word-wrap: break-word;
-    span, code, .embedAuthorName__623de, ::marker, .blockquoteDivider__75297 {
+    span, code, .embedAuthorName__623de, ::marker, .blockquoteDivider__75297, .grid__623de div {
         color: var(--bubblescss-forwardtextcolour) !important;
     }
-    a {
+    a span {
         color: var(--bubblescss-forwardlinkcolour) !important;
     }
     .container__60fa3, .embed__623de, .button__201d5, code, .blockquoteDivider__75297 {
@@ -239,7 +239,7 @@
     background-color: var(--bubblescss-forwardlinkcolour);
     border-radius: 0px 10px 10px 10px;
     svg>path {
-        fill: var(--chat-background) !important;
+        fill: var(--bubblescss-forwardtextcolour) !important;
         }
     }
     .headerText__122e4, .footerText__122e4 {
