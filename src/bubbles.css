@@ -192,7 +192,7 @@
         color: var(--bubblescss-forwardtextcolour) !important;
     }
     a {
-        color: var(--bubblescss-forwardlinkcolour);
+        color: var(--bubblescss-forwardlinkcolour) !important;
     }
     .container__60fa3, .embed__623de, .button__201d5, code, .blockquoteDivider__75297 {
         background-color: var(--bubblescss-forwardembedcolour);
