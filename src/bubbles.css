@@ -189,12 +189,12 @@
     box-sizing: content-box;
     word-wrap: break-word;
     span, code, .embedAuthorName__623de, ::marker, .blockquoteDivider__75297 {
-        color: var(--chat-background) !important;
+        color: var(--bubblescss-forwardtextcolour) !important;
     }
     a {
         color: var(--bubblescss-forwardlinkcolour);
     }
-    .container__60fa3, .embed__623de, .button__201d5 {
+    .container__60fa3, .embed__623de, .button__201d5, code, .blockquoteDivider__75297 {
         background-color: var(--bubblescss-forwardembedcolour);
     }
 }
