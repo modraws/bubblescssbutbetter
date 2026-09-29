@@ -15,7 +15,7 @@
     border-radius: 10px 10px 10px 0px;
 }
 
-.c19a557985eb7793-repliedTextContent, .repliedTextContent_c19a55 {
+.c19a557985eb7793-repliedTextPreview > .c19a557985eb7793-messageContent, .repliedTextPreview_c19a55 > .messageContent_c19a55 {
     border-radius: 0px;
 }
 
