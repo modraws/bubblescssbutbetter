@@ -307,7 +307,8 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     
     [class*="groupStart__"] [class*="messageContent_"] {
         /* why the hell was this !importanted, stupid me is stupid */
-        border-radius: 10px 10px 0px 10px; /* mo you goofball how did you goof this up */
+        /* because shit breaks when not —mo */
+        border-radius: 10px 10px 0px 10px !important; /* mo you goofball how did you goof this up */
     }
 
     [class*="message__"] {
