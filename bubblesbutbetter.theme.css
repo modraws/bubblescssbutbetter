@@ -23,7 +23,7 @@
 /* [class*="messageListItem__"][data-is-self="true"] {
     [class*="message__"] {
         [class*="contents_"]>[class*="messageContent_"] {
-            color: --chat-background
+            color: var(--chat-background-default);
 			a span {
         		color: var(--bubblescss-forwardlinkcolour) !important;
    			}
