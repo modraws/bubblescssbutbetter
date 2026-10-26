@@ -25,8 +25,11 @@
         [class*="contents_"]>[class*="messageContent_"] {
             color: var(--chat-background-default);
 			a span {
-        		color: var(--bubblescss-forwardlinkcolour) !important;
+        		color: #1e66f5 !important;
    			}
+			code {
+				color: var(--text-default);
+			}
         }
     }
 } */
