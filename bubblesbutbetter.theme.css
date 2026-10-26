@@ -24,8 +24,14 @@
     [class*="message__"] {
         [class*="contents_"]>[class*="messageContent_"] {
             color: var(--chat-background-default);
-			a span {
-        		color: #1e66f5 !important;
+            h1, h2, h3, blockquote, blockquote h1, blockquote h2, blockquote h3 {
+                color: var(--chat-background-default);
+            }
+            small, blockquote small, time, .content__235ca {
+                color: var(--primary-600);
+            }
+			a span, .anchor__14d82 {
+        		color: var(--blue-600);
    			}
 			code {
 				color: var(--text-default);
