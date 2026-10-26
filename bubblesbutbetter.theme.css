@@ -18,3 +18,12 @@
 	--bubblescss-forwardembedcolour: var(--brand-70a);
 	--bubblescss-bubblepadding: 8px 14px; /* verticalpadding horizontalpadding*/
 }
+
+/* uncomment this if text in selfbubbles is illegible. this changes your text colour to dark */
+/* [class*="messageListItem__"][data-is-self="true"] {
+    [class*="message__"] {
+        [class*="contents_"]>[class*="messageContent_"] {
+            color: unset
+        }
+    }
+} */
