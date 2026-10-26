@@ -23,7 +23,10 @@
 /* [class*="messageListItem__"][data-is-self="true"] {
     [class*="message__"] {
         [class*="contents_"]>[class*="messageContent_"] {
-            color: unset
+            color: --chat-background
+			a span {
+        		color: var(--bubblescss-forwardlinkcolour) !important;
+   			}
         }
     }
 } */
