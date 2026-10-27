@@ -438,7 +438,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
         }
         /* Done this way, as forwards have a dingus header container */
         [class*="messageContent_"] {
-            border-radius: 10px 0px 0px 10px;
+            border-radius: 10px 0px 0px 10px !important;
         }
 
         .container_b7e1cb {
