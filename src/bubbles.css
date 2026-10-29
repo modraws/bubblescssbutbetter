@@ -255,6 +255,8 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     }
     [class*="messageContent_"] {
         border-radius: 0px 10px 10px 0px;
+        max-width: fit-content;
+        width: calc(100% - 28px) !important;
     }
     .container_b7e1cb {
         margin-top: 4px;
