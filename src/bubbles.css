@@ -15,7 +15,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     overflow-wrap: anywhere;
 }
 
-[class*="groupStart__"] [class*="messageContent_"] {
+[class*="groupStart_"] [class*="messageContent_"] {
     border-radius: 10px 10px 10px 0px;
 }
 
@@ -23,14 +23,14 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     border-radius: 0px;
 }
 
-.message__5126c {
+.message_5126c {
     /* position: absolute; */
     max-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
     min-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
     padding: 2px 64px !important;
 }
 
-[class*="messageListItem__"] [class*="contents_"] {
+[class*="messageListItem_"] [class*="contents_"] {
     /* position: absolute; */
     max-width: calc(100%) !important;
     min-width: calc(100%) !important;
@@ -160,8 +160,8 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     display: none !important;
 }
 
-[class*="messageListItem__"][data-is-self="true"] {
-    [class*="message__"] {
+[class*="messageListItem_"][data-is-self="true"] {
+    [class*="message_"] {
         [class*="contents_"]>[class*="messageContent_"] {
             background-color: var(--bubblescss-selfbubblecolour);
         }
@@ -301,19 +301,19 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
 }
 
 /* SELF BUBBLES THAT ALIGN RIGHT- - - - - - - - - - - - */
-[class*="messageListItem__"][data-is-self="true"] {
+[class*="messageListItem_"][data-is-self="true"] {
     align-items: end;
     align-content: end;
     justify-content: end;
     justify-items: end;
     
-    [class*="groupStart__"] [class*="messageContent_"] {
+    [class*="groupStart_"] [class*="messageContent_"] {
         /* why the hell was this !importanted, stupid me is stupid */
         /* because shit breaks when not —mo */
         border-radius: 10px 10px 0px 10px !important; /* mo you goofball how did you goof this up */
     }
 
-    [class*="message__"] {
+    [class*="message_"] {
             /* position: absolute; */
             max-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
             min-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
@@ -427,7 +427,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
 }
 
 /* FORWARDS SENT BY SELF WILL ALIGN RIGHT - - - - - - - */
-[class*="messageListItem__"][data-is-self="true"] {
+[class*="messageListItem_"][data-is-self="true"] {
     .content__122e4>* {
         align-self: flex-end;
         align-items: flex-end;
