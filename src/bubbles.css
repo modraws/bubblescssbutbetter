@@ -38,14 +38,14 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     overflow-wrap: anywhere;
 }
 
-[class*="buttonContainer_"]:not([class*="buttonContainer__"]) {
+[class*="buttonContainer__"]:not([class*="buttonContainer_"]) {
     right: 20px;
     .container_V_VY9Q {
         padding: 0 64px;
         right: -20px;
     }
 }
-[class*="markup__"] blockquote, [class*="markup__"] pre {
+[class*="markup_"] blockquote, [class*="markup_"] pre {
     max-width: 100% !important;
 }
 
@@ -462,7 +462,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
             justify-items: end;
         }
 
-        [class*="footerContainer__"] {
+        [class*="footerContainer_"] {
             border-radius: 10px 0px 10px 10px;
             color: #444;
         }
