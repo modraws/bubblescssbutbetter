@@ -40,7 +40,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
 
 [class*="buttonContainer_"]:not([class*="buttonContainer__"]) {
     right: 20px;
-    .container__040f0 {
+    .container_V_VY9Q {
         padding: 0 64px;
         right: -20px;
     }
@@ -405,7 +405,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
         /* right: auto; */
         left: 0;
 
-        .container__040f0 {
+        .container_V_VY9Q {
             padding: 0 64px;
             right: auto;
             left: 0px;
