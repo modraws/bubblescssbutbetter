@@ -23,7 +23,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     border-radius: 0px;
 }
 
-.message_5126c {
+.message_SY_P2T {
     /* position: absolute; */
     max-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
     min-width: calc(100% - var(--custom-message-margin-left-content-cozy) - 64px) !important;
@@ -52,7 +52,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
 
 /* REACTION ROTATIONS */
 /*
-  ._23977d5b7cef7361-reactions, .reactions__23977 {
+  .reactions_MmKct8 {
     margin-bottom: -12px;
   
     width: 100% !important;
@@ -63,8 +63,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     >div {
       position: relative;
   
-      ._23977d5b7cef7361-reaction, .reaction__23977,
-      ._23977d5b7cef7361-reactionBtn, .reactionBtn__23977 {
+      .reaction_MmKct8, .reactionBtn_MmKct8 {
         backdrop-filter: blur(16px);
       }
   
@@ -224,17 +223,17 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     padding: var(--bubblescss-bubblepadding) !important;
     box-sizing: content-box;
     word-wrap: break-word;
-    span, code, [class*="embedAuthorName__"], ::marker, [class*="blockquoteDivider__"], .grid__623de div {
+    span, code, [class*="embedAuthorName__"], ::marker, [class*="blockquoteDivider__"], .grid_XyW1ZT div {
         color: var(--bubblescss-forwardtextcolour) !important;
     }
     a span {
         color: var(--bubblescss-forwardlinkcolour) !important;
     }
-    .container__60fa3, [class*="embed__"], .button__201d5, code, [class*="blockquoteDivider__"] {
+    .container_rc97-L, [class*="embed__"], .button_9OQtot, code, [class*="blockquoteDivider__"] {
         background-color: var(--bubblescss-forwardembedcolour);
     }
 }
-.container__122e4 {
+.container_4dy_KE {
     [class*="quote__"] {
     background-color: rgba(0,0,0,0) !important;
     border-radius: 0px !important;
@@ -271,12 +270,12 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
         background: none; */
         max-width: fit-content;
         width: calc(100% - 28px) !important;
-        .container__60fa3 {
+        .container_rc97-L {
             align-self: end !important;
             max-width: 566px;
             width: calc(100% - 34px);
         }
-        .container__4d95d {
+        .container_BOOBu- {
             min-width: unset;
         }
     }
@@ -391,7 +390,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
         }
     }
 
-    .cozy_c19a55.hasThread_c19a55:after {
+    .cozy_2i8Bfm.hasThread_2i8Bfm:after {
         border-radius:unset;
         border-end-end-radius: 8px;
         border-inline-start: 0px;
