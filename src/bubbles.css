@@ -182,7 +182,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
         margin-left: auto !important;
     }
 
-    [class*="messageContent_"] > [class*="content__"] {
+    [class*="messageContent_"] > [class*="content_"] {
         background-color: var(--bubblescss-selfbubblecolour);
         border-radius: 10px 10px 0 10px;
         padding: var(--bubblescss-bubblepadding);
@@ -194,11 +194,11 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     }
     
     /* credit mo for making me think better */
-    [class*="fileWrapper__"] {
+    [class*="fileWrapper_"] {
         margin-left: auto;
     }
     
-    [class*="fileWrapper__"] > [class*="file"] {
+    [class*="fileWrapper_"] > [class*="file"] {
        margin-left: auto;
        max-width: 432px;
        width: 100%;
@@ -216,7 +216,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
 }
 
 /* FORWARDS - - - - - - - - - - - - - - - - - - - - - - */
-.content__122e4>* {
+.content_4dy_KE>* {
     background-color: var(--bubblescss-forwardbubblecolour);
     width: fit-content;
     margin-left: 0px !important;
@@ -243,8 +243,11 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     margin-inline-end: 0px !important;
     }
 }
-.content__122e4 {
-    [class*="headerContainer__"] {
+.quote_4dy_KE {
+        display: none;
+    }
+.content_4dy_KE {
+    [class*="headerContainer_"] {
     width: fit-content;
     background-color: var(--bubblescss-forwardiconcolour);
     border-radius: 10px 10px 10px 0px;
@@ -258,7 +261,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
         max-width: fit-content;
         width: calc(100% - 28px) !important;
     }
-    .container_b7e1cb {
+    .container_YUQhib {
         margin-top: 4px;
         border-radius: 0px 10px 10px 0px;
         /* This was me removing your bubble border for images in forwards
@@ -347,7 +350,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
             right: calc(var(--custom-message-margin-horizontal) - var(--custom-message-avatar-decoration-size) / 2 + var(--custom-message-avatar-size) / 2);
         }
         
-        .container_b7e1cb>* {
+        .container_YUQhib>* {
             justify-self: end !important;
             align-self: end !important;
         }
@@ -428,14 +431,17 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
 
 /* FORWARDS SENT BY SELF WILL ALIGN RIGHT - - - - - - - */
 [class*="messageListItem_"][data-is-self="true"] {
-    .content__122e4>* {
+    .content_4dy_KE>* {
         align-self: flex-end;
         align-items: flex-end;
         align-content: end;
         justify-content: end;
     }
-    .content__122e4 {
-        [class*="headerContainer__"] {
+    .quote_4dy_KE {
+        display: none;
+    }
+    .content_4dy_KE {
+        [class*="headerContainer_"] {
             border-radius: 10px 10px 0px 10px;
         }
         /* Done this way, as forwards have a dingus header container */
@@ -443,7 +449,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
             border-radius: 10px 0px 0px 10px !important;
         }
 
-        .container_b7e1cb {
+        .container_YUQhib {
             margin-top: 4px;
             border-radius: 10px 0px 0px 10px;
             /* This was me removing your bubble border for images in forwards
@@ -459,10 +465,12 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
 
         [class*="footerContainer__"] {
             border-radius: 10px 0px 10px 10px;
+            color: #444;
         }
         /* I use the Vencord BetterForwards plugin soo I need another rule for its footer */
         [class*="vc-betterforwards-footer"] {
             border-radius: 10px 0px 10px 10px;
+            color: #444;
         }
     }
 }
