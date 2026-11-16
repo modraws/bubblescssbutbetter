@@ -349,9 +349,16 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
             right: calc(var(--custom-message-margin-horizontal) - var(--custom-message-avatar-decoration-size) / 2 + var(--custom-message-avatar-size) / 2);
         }
         
-        .container_YUQhib>* {
-            justify-self: end !important;
-            align-self: end !important;
+        .container_YUQhib {
+            justify-items: end;
+            [class*="embed_"] {
+                min-width:100%;
+                [class*="imageContent"]{
+                    min-width: max-content;
+                    width: fit-content;
+                    justify-self: end;
+                }
+            }
         }
 
         [class*="pollContainer_"] {
@@ -456,10 +463,14 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
             keep it - taxy */
             /* padding: 0px !important;
             background: none; */
-            align-items: end;
-            align-content: end;
-            justify-content: end;
-            justify-items: end;
+            [class*="embed_"] {
+                min-width:100%;
+                [class*="imageContent"]{
+                    min-width: max-content;
+                    width: fit-content;
+                    justify-self: end;
+                }
+            }
         }
 
         [class*="footerContainer_"] {
