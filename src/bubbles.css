@@ -15,11 +15,6 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     overflow-wrap: anywhere;
 }
 
-[class*="imageContent"] {
-    min-width: min-content;
-    width: fit-content;
-}
-
 [class*="groupStart_"] [class*="messageContent_"] {
     border-radius: 10px 10px 10px 0px;
 }
@@ -53,8 +48,6 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
 [class*="markup_"] blockquote, [class*="markup_"] pre {
     max-width: 100% !important;
 }
-
-
 
 /* REACTION ROTATIONS */
 /*
