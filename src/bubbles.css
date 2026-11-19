@@ -4,7 +4,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
 
 /* MESSAGES  - - - - - - - - - - - - - - - - - - - - - */
 [class*="contents_"]>[class*="messageContent_"] {
-    background-color: var(--bubblescss-otherbubblecolour);
+    background: var(--bubblescss-otherbubblecolour);
     width: fit-content;
     margin-left: 0px !important;
     padding-left: 0px !important;
@@ -161,7 +161,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
 [class*="messageListItem_"][data-is-self="true"] {
     [class*="message_"] {
         [class*="contents_"]>[class*="messageContent_"] {
-            background-color: var(--bubblescss-selfbubblecolour);
+            background: var(--bubblescss-selfbubblecolour);
         }
     }
 }
@@ -181,7 +181,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     }
 
     [class*="messageContent_"] > [class*="content_"] {
-        background-color: var(--bubblescss-selfbubblecolour);
+        background: var(--bubblescss-selfbubblecolour);
         border-radius: 10px 10px 0 10px;
         padding: var(--bubblescss-bubblepadding);
         box-sizing: content-box;
@@ -215,7 +215,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
 
 /* FORWARDS - - - - - - - - - - - - - - - - - - - - - - */
 .content_4dy_KE>* {
-    background-color: var(--bubblescss-forwardbubblecolour);
+    background: var(--bubblescss-forwardbubblecolour);
     width: fit-content;
     margin-left: 0px !important;
     padding-left: 0px !important;
@@ -229,12 +229,12 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
         color: var(--bubblescss-forwardlinkcolour) !important;
     }
     .container_rc97-L, [class*="embed__"], .button_9OQtot, code, [class*="blockquoteDivider__"] {
-        background-color: var(--bubblescss-forwardembedcolour);
+        background: var(--bubblescss-forwardembedcolour);
     }
 }
 .container_4dy_KE {
     [class*="quote_"] {
-    background-color: rgba(0,0,0,0) !important;
+    background: rgba(0,0,0,0) !important;
     border-radius: 0px !important;
     width: 0px !important;
     -webkit-margin-end: 0px !important;
@@ -247,7 +247,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
 .content_4dy_KE {
     [class*="headerContainer_"] {
     width: fit-content;
-    background-color: var(--bubblescss-forwardiconcolour);
+    background: var(--bubblescss-forwardiconcolour);
     border-radius: 10px 10px 10px 0px;
     margin-bottom: 4px;
     svg>path {
@@ -280,7 +280,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     }
     [class*="footerContainer_"] {
         width: fit-content;
-        background-color: var(--bubblescss-forwardlinkcolour);
+        background: var(--bubblescss-forwardlinkcolour);
         border-radius: 0px 10px 10px 10px;
         svg>path {
             fill: var(--bubblescss-forwardtextcolour) !important;
@@ -289,7 +289,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
     /* I use the Vencord BetterForwards plugin soo I need another rule for its footer */
     [class*="vc-betterforwards-footer"] {
         width: fit-content;
-        background-color: var(--bubblescss-forwardlinkcolour);
+        background: var(--bubblescss-forwardlinkcolour);
         border-radius: 0px 10px 10px 10px;
         svg>path {
             fill: var(--bubblescss-forwardtextcolour) !important;
