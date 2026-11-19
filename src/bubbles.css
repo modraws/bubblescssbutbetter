@@ -360,7 +360,7 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
                 [class*="embedVideo"] {
                     justify-self: end;
                     min-width: max-content !important;
-                    width: 100%;
+                    width: fit-content;
                 }
             }
             .container_g2fiji {
