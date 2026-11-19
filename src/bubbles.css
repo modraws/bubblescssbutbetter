@@ -357,6 +357,11 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
                     justify-self: end;
                     width: 100%;
                 }
+                [class*="embedVideo"] {
+                    justify-self: end;
+                    min-width: max-content !important;
+                    width: 100%;
+                }
             }
             .container_g2fiji {
                 justify-self: end;
