@@ -356,6 +356,11 @@ instead of the previous hardcode. No AI has been used for the actual styling wha
                 [class*="imageContent"] {
                     justify-self: end;
                     width: 100%;
+                    div {
+                        width: auto;
+                        float: right;
+                        }
+                    }
                 }
                 [class*="embedVideo"] {
                     justify-self: end;
